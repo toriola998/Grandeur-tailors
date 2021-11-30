@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&family=Rubik:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&family=Rubik:wght@300;400&display=swap');
 
 * {
     box-sizing: border-box;
@@ -82,7 +83,7 @@ header h1 {
     width: 100vw
 }
 
-h2, #overview h1 {
+h2, #overview h1, #why-choose-us h1 {
     text-align: center;
     font-family: var(--mainFont);
     font-weight: 400;
@@ -98,7 +99,7 @@ h2, #overview h1 {
     margin: 0 auto 2rem;
 }
 
-#overview {
+#overview, #why-choose-us {
     padding: 2rem 1.5rem;
 }
 
@@ -107,7 +108,7 @@ h2, #overview h1 {
     margin-bottom: 1.5rem;
 }
 
-#overview p {
+#overview p, #why-choose-us p {
     font-family: var(--paragraphFont);
     font-weight: 400;
     color: var(--paragraphColor);
@@ -137,3 +138,9 @@ button a {
     margin: auto;
 }
   
+#why-choose-us h3 {
+   /* font-family: 'Poppins', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size : 1.5rem;
+}
