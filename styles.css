@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --mainFont:  'Playfair Display', serif;
+    --brownFont: #be9669;
+    --paragraphFont:  'Rubik', sans-serif;
+    --paragraphColor: grey;
+}
+
+header {
+    background-color: #fff;
+    height: 100%;
+    width: 100vw;
+    padding: 1rem 1.5rem 3rem;
+}
+
+#hamburger {
+    height: 2.5rem;
+    width: 2.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+.nav-top {
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 400;
+    margin-bottom: 3rem;
+}
+
+.home-photo {
+    border-radius: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.content {
+    margin-top: 3rem;
+}
+
+.work {
+    background-image: url("./assets/images/bg-photo3.jpg"); /* The image used */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 100%; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    color: #fff; 
+}
+
+.overlay > div {
+    position: absolute;
+    color: #fff;
+}
+
+.overlay  {
+    background: rgba(0, 0, 0, 0.6);
+    /*position: fixed;
+    top: 0;*/
+    z-index: 1;
+    min-height: 100vh;
+    width: 100vw
+}
+
+h2, #overview h1 {
+    text-align: center;
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.styles {
+    width: 250px;
+}
+
+.styles {
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+#overview {
+    padding: 2rem 1.5rem;
+}
+
+#overview h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+}
+
+#overview p {
+    font-family: var(--paragraphFont);
+    font-weight: 400;
+    color: var(--paragraphColor);
+    line-height: 1.7;
+    font-size: 14.6px;
+    margin-bottom: 1.3rem;
+}
+
+
+  
