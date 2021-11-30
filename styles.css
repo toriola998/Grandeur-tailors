@@ -127,8 +127,7 @@ button {
 
 button a {
     color: #fff;
-    font-family: var(--paragraphFont);
-   
+    font-family: var(--paragraphFont);  
 }
 
 .overview-photo {
@@ -137,10 +136,29 @@ button a {
     display: block;
     margin: auto;
 }
-  
+
+#why-choose-us h1, h2 {
+    margin-bottom: 3rem;
+}
+
 #why-choose-us h3 {
    /* font-family: 'Poppins', sans-serif;*/
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size : 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.underline {
+    width: auto;
+    height: 2px;
+    background-color: #080808;
+}
+
+#why-choose-us p{
+    margin: unset;
+}
+
+#why-choose-us > div > .inner{
+    margin: 2rem 0;
 }
