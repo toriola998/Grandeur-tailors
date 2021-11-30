@@ -83,7 +83,7 @@ header h1 {
     width: 100vw
 }
 
-h2, #overview h1, #why-choose-us h1 {
+h2, #overview h1, #why-choose-us h1, #blog h1 {
     text-align: center;
     font-family: var(--mainFont);
     font-weight: 400;
@@ -161,4 +161,10 @@ button a {
 
 #why-choose-us > div > .inner{
     margin: 2rem 0;
+}
+
+.blog-photo {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
 }
