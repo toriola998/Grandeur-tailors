@@ -108,7 +108,7 @@ h2, #overview h1, #why-choose-us h1, #blog h1 {
     margin-bottom: 1.5rem;
 }
 
-#overview p, #why-choose-us p {
+#overview p, #why-choose-us p, .box p {
     font-family: var(--paragraphFont);
     font-weight: 400;
     color: var(--paragraphColor);
@@ -164,7 +164,39 @@ button a {
 }
 
 .blog-photo {
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 180px;
     border-radius: 100px;
+}
+
+.grid-container {
+    display: grid;
+    justify-content: center;
+}
+
+.box img{
+    margin: 0 auto 1.5rem;
+    display: block;
+}
+
+.box {
+    width: 280px;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.box h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 1rem; 
+}
+
+.blog-btn {
+    background-color: inherit;
+    border: 1px solid var(--brownFont);
+    margin-bottom: unset;
+}
+
+.blog-btn a {
+    color: var(--brownFont);
 }
