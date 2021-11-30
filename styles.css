@@ -200,3 +200,114 @@ button a {
 .blog-btn a {
     color: var(--brownFont);
 }
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--brownFont);
+    color: #fff;
+    height: 3rem;
+    font-family: var(--paragraphFont);
+    font-size: 14px;
+}
+
+
+@media screen and (min-width: 550px) {
+    header {
+        padding: 1rem 4rem 3rem;
+    }
+     
+    header h1 {
+      font-size: 3rem;
+    }
+
+    .styles {
+        width: 50%;
+    }
+
+    .overview-flex>div {
+        width: 80%;
+        margin:0 auto 3rem;
+
+    }
+    .choose-inner>div {
+        width: 60%;
+        margin: auto;
+    }
+
+    #box {
+        width: 50%;
+        margin: auto;
+    }
+    
+}
+
+@media screen and (min-width: 760px) {
+    .image-wrap {
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: center;
+        gap: 40px;
+    }
+
+    .styles {
+        width: 300px;
+        margin: unset;
+    }
+
+    #overview p {
+        font-size: 15px;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    .image-wrap {  
+        grid-template-columns: auto auto auto;
+        gap: 40px;
+    }
+
+    #overview {
+        padding: unset;
+    }
+
+    .overview-flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: row-reverse;
+    }
+
+    .overview-flex>div {
+        width: 40%;
+        margin: unset;
+    }
+
+    .overview-photo {
+        margin: unset;
+        margin-right: 4rem;
+        height: auto;
+        width: 360px;
+    }
+
+    .choose-inner {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    .choose-inner>div {
+        width: unset;
+        margin: 0 4rem 0;
+    }
+
+    .grid-container{
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .box {
+        margin: 0 1rem 3rem;
+    }
+}
