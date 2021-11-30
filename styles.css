@@ -14,6 +14,13 @@
     --paragraphColor: grey;
 }
 
+a {
+    text-decoration: none;
+}
+
+button, a {
+    cursor: pointer;
+}
 header {
     background-color: #fff;
     height: 100%;
@@ -109,5 +116,24 @@ h2, #overview h1 {
     margin-bottom: 1.3rem;
 }
 
+button {
+    height: 2.5rem;
+    width: 10rem;
+    background-color: var(--brownFont);
+    border: none;
+    margin-bottom: 2rem;
+}
 
+button a {
+    color: #fff;
+    font-family: var(--paragraphFont);
+   
+}
+
+.overview-photo {
+    height: 400px;
+    width: auto;
+    display: block;
+    margin: auto;
+}
   
