@@ -59,17 +59,14 @@ button, a {
   }
   
   li > a:hover {
-    color: var(--mainDark);
-    padding-left: 0.5rem;
+    border-bottom: 3px solid var(--brownFont);
     text-decoration: none;
   }
 
- 
-  
   #close-icon {
-      position: absolute;
-      top: 1.5rem;
-      right: 1.5rem;
+    position: absolute;
+    top: 1.5rem;
+    right: 1.5rem;
   }
 
 header {
@@ -252,6 +249,10 @@ footer p {
 }
 
 @media screen and (min-width: 550px) {
+    li > a {
+        font-size: 15px;
+      }
+    
     header {
         padding: 1rem 4rem 3rem;
     }
@@ -283,6 +284,30 @@ footer p {
 }
 
 @media screen and (min-width: 760px) {
+   #hamburger, 
+   #close-icon {
+       display: none;
+   }
+   
+   nav {
+        overflow: visible;
+   }
+
+   .nav-items {
+       display: flex;
+       position: absolute;
+       bottom: 1.2rem;
+       right: 0;
+   }
+
+   li {
+       padding: 0 1rem 0;
+   }
+
+   li > a >span {
+       display: none;
+   }
+
     body {
         overflow-x: hidden;
     }
@@ -296,7 +321,9 @@ footer p {
         gap: 40px;
     }
 
-    .image-wrap , .grid-container, .choose-inner {
+    .image-wrap, 
+    .grid-container, 
+    .choose-inner {
         display: grid;
         grid-template-columns: auto auto;
     }
@@ -341,11 +368,15 @@ footer p {
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: unset;
     }
+
+    .content {
+        margin-top: 3rem;
+   }
 
     .overview-flex{
         flex-direction: row-reverse;
+        margin-top: unset;
     }
 
     .content-head, 
