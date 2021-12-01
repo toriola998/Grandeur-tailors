@@ -37,23 +37,25 @@ button, a {
   
   nav {
     overflow: hidden;
+    position: relative;
     height: 0;
   }
   
   li {
     list-style-type: none;
+    padding-bottom: 1rem;
   }
 
-  .nav-items >li > img {
-      width: 2rem;
-      height: 2rem;
-  }
-  
   li > a {
     color: var(--brownFont);
    font-weight: 400;
-    font-size: 15px;
-    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-family: var(--paragraphFont);
+  }
+
+  li > a > span {
+    font-weight: 600;
+    padding-right: 0.5rem;
   }
   
   li > a:hover {
@@ -61,14 +63,14 @@ button, a {
     padding-left: 0.5rem;
     text-decoration: none;
   }
+
+ 
   
-  /*#close-icon {
-    position: absolute;
-    top: 2rem;
-    right: 2rem;
-    cursor: pointer;
-  }*/
-  
+  #close-icon {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+  }
 
 header {
     background-color: #fff;
