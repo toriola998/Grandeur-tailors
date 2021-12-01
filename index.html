@@ -4,6 +4,9 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <!--<link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">-->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta name="description"
+          content="" />
         <title>Grandeur Tailors</title>
         <link rel="stylesheet" href="styles.css"/>
     </head>
@@ -13,6 +16,26 @@
                 <p>tailors</p>
                 <img src="./assets/icons/menu1.svg" alt="menu" id="hamburger"/>
             </div>
+
+            <nav>
+                <ul class="nav-items">
+                    <img alt="close-icon" id="close-icon" />
+                    <li><a href="#" class="nav-link">Home</a></li>
+                    <div class="hr-nav"></div>
+
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <div class="hr-nav"></div>
+
+                    <li><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+                    <div class="hr-nav"></div>
+
+                    <li><a href="#work" class="nav-link">Services</a></li>
+                    <div class="hr-nav"></div>
+    
+                    <li><a href="#contacts" class="nav-link">Contact</a></li>
+                    <div class="hr-nav"></div>   
+                </ul>
+            </nav>
             <div class="content">
                 <div>
                     <h1 class="content-head">Designed for fit. Loved for style. Fashion is nothing but a choice.</h1>
@@ -131,7 +154,8 @@
         </section>
     </main>
     <footer>
-        <p>Grandeur Tailors @<span>2021</span> All Rights Reserved</p>
+        <p>Grandeur Tailors @<span id="date">2021</span> All Rights Reserved</p>
     </footer>
-    </body>
+<script src="./js/index.js"></script>    
+</body>
 </html>
