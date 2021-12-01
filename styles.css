@@ -29,7 +29,7 @@ button, a {
     width: 70vw;
     top: 0;
     right: 0;
-    background-color: #0f0f0f;
+    background-color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -38,18 +38,22 @@ button, a {
   nav {
     overflow: hidden;
     height: 0;
-    position: relative;
   }
   
   li {
     list-style-type: none;
   }
+
+  .nav-items >li > img {
+      width: 2rem;
+      height: 2rem;
+  }
   
   li > a {
-    color: var(--mainWhite);
-    transition: var(--mainTransition);
+    color: var(--brownFont);
+   font-weight: 400;
     font-size: 15px;
-    font-family: var(--mainFont);
+    font-family: 'Montserrat', sans-serif;
   }
   
   li > a:hover {
@@ -58,12 +62,12 @@ button, a {
     text-decoration: none;
   }
   
-  #close-icon {
+  /*#close-icon {
     position: absolute;
     top: 2rem;
     right: 2rem;
     cursor: pointer;
-  }
+  }*/
   
 
 header {
