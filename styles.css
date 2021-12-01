@@ -22,6 +22,7 @@ a {
 button, a {
     cursor: pointer;
 }
+
 header {
     background-color: #fff;
     height: 100%;
@@ -45,9 +46,19 @@ header {
 
 header h1 {
     font-weight: 400;
-    margin-bottom: 3rem;
 }
 
+header p{
+    margin: 1rem 0;
+}
+
+header button {
+    width: 9rem;
+}
+
+.explore {
+    margin-right: 1rem;
+}
 .home-photo {
     border-radius: 300px;
     width: 300px;
@@ -108,7 +119,7 @@ h2, #overview h1, #why-choose-us h1, #blog h1 {
     margin-bottom: 1.5rem;
 }
 
-#overview p, #why-choose-us p, .box p {
+#overview p, #why-choose-us p, .box p, header p {
     font-family: var(--paragraphFont);
     font-weight: 400;
     color: var(--paragraphColor);
@@ -217,9 +228,17 @@ footer {
     header {
         padding: 1rem 4rem 3rem;
     }
+
+    .content {
+        margin-bottom: 5rem;
+    }
      
+    .content>div {
+        margin-bottom: 2rem;
+    }
+
     header h1 {
-      font-size: 3rem;
+      font-size: 2.5rem;
     }
 
     .styles {
@@ -244,6 +263,10 @@ footer {
 }
 
 @media screen and (min-width: 760px) {
+    body {
+        overflow-x: hidden;
+    }
+    
     .image-wrap {
         display: grid;
         grid-template-columns: auto auto;
@@ -266,6 +289,26 @@ footer {
     .image-wrap {  
         grid-template-columns: auto auto auto;
         gap: 40px;
+    }
+
+    .content {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: unset;
+    }
+    header h1 {
+        margin: unset;   
+    }
+
+    .content>div {
+        width: 45%;
+        margin-right: 4rem ;
+    }
+
+    .home-photo{
+        margin: unset;
+        width: 340px;
     }
 
     #overview {
@@ -310,4 +353,22 @@ footer {
     .box {
         margin: 0 1rem 3rem;
     }
+}
+
+@media screen and (min-width: 1250px) {
+    .choose-inner {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+
+    .content>div {
+        width: 40%;
+        margin-right: 8rem ;
+    }
+
+    .home-photo{
+        margin: unset;
+        width: 420px;
+    }
+
 }
