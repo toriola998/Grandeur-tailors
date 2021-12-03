@@ -1,0 +1,16 @@
+.btn-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    margin: 0 1rem 1rem;
+    background-color: inherit;
+    border: 1px solid var(--brownFont);
+    border-radius: 10px;
+    color: var(--brownFont);
+    font-weight: 600;
+    width: auto;
+    padding: 0 1rem;
+}
