@@ -1,19 +1,51 @@
-main {
-    width: 85%;
-    margin: auto auto 5rem auto;
+.about {
+    width: 85%;  
+    margin: auto;
 }
 
-#office-photo {
-    height: 100%;
+main {
+    margin-bottom: 10rem;
+ }
+
+.article-content {
+    position: relative;  
+}
+
+#about-photo{
     width: 100%;
+    margin-bottom: 2rem;
+}
+
+button {
+    position: absolute;
+    right: 0;
 }
 
 @media screen and (min-width: 1000px) {
-    main {
+    main, #about-photo {
         width: 65%;
+    }
+
+    main {
+        margin: auto auto 12rem auto;
+    }
+
+    #about-photo {
+        width: -webkit-fill-available;
     }
 
     p {
         font-size: 18px;
     }
+
+    button {
+        width: 12rem;
+    }
 }
+
+/*
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}*/
