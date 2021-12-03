@@ -14,3 +14,21 @@ button {
     width: auto;
     padding: 0 1rem;
 }
+
+.cloth-style {
+    height: auto;
+    width: 80%;
+    margin: 0 auto 2rem;
+}
+
+@media screen and (min-width: 760px) {
+    .grid-container{
+        gap: 30px
+    }
+
+    .cloth-style {
+        height: 400px;
+        width: 300px;
+        margin: unset;
+    } 
+}
