@@ -9,7 +9,7 @@
 
 :root {
     --mainFont:  'Playfair Display', serif;
-    --brownFont: #774936; /*#a17f5a;  /*#be9669E*/
+    --brownFont: #be9669; /*#a17f5a;  /*#be9669E*/
     --paragraphFont:  'Rubik', sans-serif;
     --paragraphColor: grey;
 }
@@ -455,7 +455,7 @@ footer p {
     h3 {
         font-size : 1.8rem;
     }
-    
+
     .home-photo{
         margin: unset;
         width: 420px;
