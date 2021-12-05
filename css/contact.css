@@ -25,16 +25,16 @@ h2 {
 .social-media-border {
     border: 1px solid var(--brownFont);
     border-radius: 50%;
-    width: 3rem;
-    height: 3rem;
+    width: 2.8rem;
+    height: 2.8rem;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .social-media {
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 1.3rem;
+    height: 1.3rem;
 }
 
 .social-wrap {
