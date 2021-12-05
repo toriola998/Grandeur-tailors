@@ -3,3 +3,8 @@
     display: block;
     margin: auto;
 }
+
+.contact-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+}
