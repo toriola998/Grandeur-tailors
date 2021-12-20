@@ -153,6 +153,26 @@ h2 {
     padding: 2rem 1.5rem;
 }
 
+#bestselling-styles {
+    margin-bottom: 6rem;
+}
+
+.bestselling-styles-cta {
+    position: absolute;
+    right: 2rem;
+}
+
+.bestselling-styles-cta img {
+    width: 2rem;
+    margin-left: 0.8rem;
+}
+
+.bestselling-styles-cta a{
+    color: var(--brownFont);
+    font-family: var(--paragraphFont);
+    text-align: center;
+}
+
 p {
     font-family: var(--paragraphFont);
     font-weight: 400;
@@ -354,6 +374,14 @@ footer p {
         width: 300px;
         margin: 0 3rem 4rem;
     }
+
+    #bestselling-styles {
+        margin-bottom: unset;
+    }
+    
+    .bestselling-styles-cta {
+        margin-top: 2rem;
+    }
 }
 
 
@@ -472,5 +500,10 @@ footer p {
 
     button a {
         font-size: 15px;
+    }
+
+    .bestselling-styles-cta {
+        right: 10rem;
+       
     }
 }
