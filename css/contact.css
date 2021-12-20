@@ -3,8 +3,12 @@ h2 {
 }
 
 #office-photo {
-    height: 400px;
-    width: 100%
+    display: none;
+}
+
+#mobile-office-photo {
+    height: auto;
+    width: 100%;
 }
 
 .contact-icon {
@@ -60,6 +64,8 @@ h6 {
     margin: 2rem 0 7rem;
 }
 
+
+
 @media screen and (min-width: 760px) {
     main>div {
         width: 65%;
@@ -83,6 +89,11 @@ h6 {
         height: 550px;
         width: 500px;
         margin-right: 4rem;
+        display: block;
+    }
+
+    #mobile-office-photo {
+        display: none;
     }
 
     main>div {
