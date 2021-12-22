@@ -68,6 +68,10 @@ button, a {
     right: 1.5rem;
   }
 
+  .cta-links {
+      font-size: 15px;
+  }
+
 header {
     background-color: #fff;
     height: 100%;
@@ -127,7 +131,7 @@ button a {
 
 .home-photo {
     border-radius: 300px;
-    width: 300px;
+    width: 85%;
     display: block;
     margin: auto;
 }
@@ -151,11 +155,12 @@ h2 {
 .styles {
     display: block;
     margin: 0 auto 2rem;
-    width: 250px;
+    width: 70%;
 }
 
-#overview, #why-choose-us {
-    padding: 2rem 1.5rem;
+#overview,
+#why-choose-us {
+    padding: 2rem 1.5rem 3rem;
 }
 
 #bestselling-styles {
@@ -297,7 +302,11 @@ footer p {
     .styles {
         width: 50%;
     }
-
+    
+    #bestselling-styles {
+        margin: 0rem auto;
+    }
+    
     .overview-flex>div {
         width: 80%;
         margin:0 auto 3rem;
@@ -380,10 +389,6 @@ footer p {
         margin: 0 3rem 4rem;
     }
 
-    #bestselling-styles {
-        margin-bottom: unset;
-    }
-    
     .bestselling-styles-cta {
         margin-top: 2rem;
     }
