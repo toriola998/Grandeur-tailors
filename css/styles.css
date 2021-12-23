@@ -153,6 +153,7 @@ h2 {
 }
 
 .styles {
+    height: auto;
     display: block;
     margin: 0 auto 2rem;
     width: 80%;
@@ -178,7 +179,7 @@ h2 {
 }
 
 .bestselling-styles-cta a{
-    color: var(--brownFont);
+    color: #fff;
     font-family: var(--paragraphFont);
     text-align: center;
 }
@@ -392,10 +393,6 @@ footer p {
     .bestselling-styles-cta {
         margin-top: 2rem;
     }
-
-    .bestselling-styles-cta a{
-        font-size: 17px;
-    }
 }
 
 @media screen and (min-width: 1000px) {
@@ -526,9 +523,5 @@ footer p {
 
     .bestselling-styles-cta {
         right: 10rem; 
-    }
-
-    .bestselling-styles-cta a{
-        font-size: 18px;
     }
 }
