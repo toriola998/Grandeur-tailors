@@ -364,7 +364,7 @@ footer p {
     }
 
     .styles {
-        width: 300px;
+        width: 330px;
         margin: unset;
     }
 
@@ -415,6 +415,10 @@ footer p {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .styles {
+        width: 300px;
     }
 
     .content {
@@ -479,6 +483,10 @@ footer p {
 @media screen and (min-width: 1250px) {
     .choose-inner {
         grid-template-columns: auto auto auto;
+    }
+
+    .styles {
+        width: 360px;
     }
 
     h2 {

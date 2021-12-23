@@ -35,7 +35,6 @@ button:hover {
 
 @media screen and (min-width: 560px) {
     .cloth-style {
-        height: auto;
         width: 55%;
         margin: 0 auto 2rem;
     }   
@@ -51,8 +50,15 @@ button:hover {
     }
 
     .cloth-style {
-        height: 400px;
         width: 300px;
         margin: unset;
+        height: 400px;
+    } 
+}
+
+@media screen and (min-width: 1200px) {
+    .cloth-style {
+        width: 360px;
+        height: 500px;
     } 
 }
