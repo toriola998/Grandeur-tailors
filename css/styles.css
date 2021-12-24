@@ -8,7 +8,7 @@
 
 :root {
     --mainFont:  'Playfair Display', serif;
-    --brownFont: #be9669; /*#a17f5a;  /*#be9669E*/
+    --brownFont: /*#be9669;*/ #a17f5a;  /*#be9669E*/
     --paragraphFont:  'Rubik', sans-serif;
     --paragraphColor: grey;
 }
@@ -96,7 +96,7 @@ header {
 .nav-top p {
     font-family: 'Lato', sans-serif;
     color: var(--brownFont);
-    font-size: 19px;
+    font-size: 21px;
 }
 
 .content-head {
@@ -336,7 +336,7 @@ footer p {
    }
 
    li {
-       padding: 0 1rem 0;
+       padding: 0 1rem 0 0;
    }
 
    li > a >span {
@@ -403,6 +403,10 @@ footer p {
 
     .nav-top p {
        font-size: 30px;
+    }
+
+    li {
+        padding: 0 1rem 0 ;
     }
 
     .image-wrap, 
@@ -530,6 +534,6 @@ footer p {
     }
 
     .bestselling-styles-cta {
-        right: 10rem; 
+        right: 8rem; 
     }
 }
