@@ -8,7 +8,7 @@
 
 :root {
     --mainFont:  'Playfair Display', serif;
-    --brownFont: /*#be9669;*/ #a17f5a;  /*#be9669E*/
+    --brownFont: /*#be9669;*/ #a17f5a; /*#be9669E*/
     --paragraphFont:  'Rubik', sans-serif;
     --paragraphColor: grey;
 }
@@ -113,11 +113,12 @@ header button {
 }
 
 button {
-    height: 2.7rem;
+    height: 2.6rem;
     width: 10rem;
     background-color: var(--brownFont);
     border: none;
     margin-bottom: 2rem;
+    outline: none;
 }
 
 button a {
@@ -319,6 +320,7 @@ footer p {
 }
 
 @media screen and (min-width: 760px) {
+
    #hamburger, 
    #close-icon {
        display: none;
