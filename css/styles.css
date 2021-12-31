@@ -174,11 +174,12 @@ h2 {
 
 #overview,
 #why-choose-us {
-    padding: 2rem 1.5rem 3rem;
+    padding: 3.5rem 1.5rem 3rem;
 }
 
 #bestselling-styles {
     margin: 4rem auto 6rem;
+    position: relative;
 }
 
 .bestselling-styles-cta {
@@ -277,10 +278,40 @@ p {
     color: var(--brownFont);
 }
 
+#why-choose-us {
+    position: relative;
+}
+
+.contact-cta-btn {
+    position: absolute;
+    right: 2rem;
+    bottom: -2rem;
+    animation: bounce 2s ease infinite;
+}
+
+@keyframes bounce{
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.contact-cta-btn button {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50px;
+}
+
 footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 6rem;
     background-color: var(--brownFont);
     height: 3rem;
     font-family: var(--paragraphFont); 
@@ -384,7 +415,7 @@ footer p {
     }
 
     #overview {
-        padding: 6rem 1.5rem;
+        padding: 10rem 1.5rem 6rem;
     }
 
     .overview-photo {
@@ -407,6 +438,11 @@ footer p {
 
     .bestselling-styles-cta {
         margin-top: 2rem;
+    }
+
+    .contact-cta-btn {
+        right: 3rem;
+        bottom: 3rem;
     }
 }
 
@@ -497,6 +533,11 @@ footer p {
     header button {
         width: 11rem;
     }
+
+    .contact-cta-btn {
+        right: 9rem;
+        bottom: 5rem;
+    }
 }
 
 @media screen and (min-width: 1250px) {
@@ -550,5 +591,18 @@ footer p {
 
     .bestselling-styles-cta {
         right: 5rem; 
+    }
+
+    .contact-cta-btn {
+        right: 7rem;
+        bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    section,
+    header {
+        max-width: 1320px;
+        margin: auto;
     }
 }

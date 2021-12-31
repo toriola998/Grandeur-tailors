@@ -43,6 +43,20 @@ button {
     }
 }
 
+@media screen and (min-width: 1400px) {
+    header,
+    main {
+        max-width: 1320px;
+        margin: auto;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}
+
 /*
 footer {
     position: absolute;
