@@ -17,6 +17,10 @@ a {
     text-decoration: none;
 }
 
+.logo {
+    color: var(--brownFont);
+}
+
 button, a {
     cursor: pointer;
 }
