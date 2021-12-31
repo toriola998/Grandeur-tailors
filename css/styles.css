@@ -158,6 +158,7 @@ h2 {
 }
 
 .styles {
+    object-fit: cover;
     height: auto;
     display: block;
     margin: 0 auto 2rem;
