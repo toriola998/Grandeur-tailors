@@ -34,6 +34,10 @@ button:hover {
     margin: 0 auto 2rem;
 }
 
+.suits{
+    display: none;
+}
+
 @media screen and (min-width: 560px) {
     .cloth-style {
         width: 55%;
