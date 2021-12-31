@@ -25,6 +25,12 @@ button, a {
     cursor: pointer;
 }
 
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .show-links {
     position: fixed;
     z-index: 9999;
@@ -127,7 +133,8 @@ button {
 
 button a {
     color: #fff;
-    font-family: var(--paragraphFont);  
+    font-family: var(--paragraphFont); 
+    font-size: 15px; 
 }
 
 .explore {
@@ -373,6 +380,7 @@ footer p {
     .styles {
         width: 330px;
         margin: unset;
+        height: 430px;
     }
 
     #overview {
