@@ -7,13 +7,13 @@ This is a multi-page website for a fashion design brand. Grandeur Tailors is a N
 - Gallery
 - Contact 
 
-### Screenshot
+## Screenshot
 ![](./assets/screenshot.png)
 
-### Live Site
+## Live Site
 - Live Site URL: http://grandeurtailors.com/
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
