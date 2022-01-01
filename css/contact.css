@@ -9,6 +9,7 @@ h2 {
 #mobile-office-photo {
     height: auto;
     width: 100%;
+    object-fit: cover;
 }
 
 .contact-icon {
@@ -90,6 +91,7 @@ h6 {
         width: 500px;
         margin-right: 4rem;
         display: block;
+        object-fit: cover;
     }
 
     #mobile-office-photo {
