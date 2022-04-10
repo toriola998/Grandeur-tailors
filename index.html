@@ -18,35 +18,35 @@
     <body>
         <div class="flex nav-top">
             <p><a href="#" class="logo">GRANDEUR Tailors</a></p>
-            <img src="./assets/icons/menu.svg" alt="menu" id="hamburger"/>
+            <nav role="navigation">
+                <button id="hamburger" aria-label="Toggle Menu" 
+                    aria-expanded="false" aria-controls="mainNavLinks">
+                    <img src="./assets/icons/menu.svg"  
+                        alt="" width="50" 
+                        role="presentation" />
+                </button>
+                <div id="mainNavLinks" class="links" 
+                    aria-labelledby="mainNavHeading"  aria-live="polite">
+                    <button id="close-icon">
+                        <img src="./assets/icons/close-icon.svg" alt=""
+                            width="25" role="presentation"/>
+                    </button>
+                    <h2 id="mainNavHeading" hidden>Main menu</h2>
+                    <ul>
+                        <li>
+                            <a href="#" class="nav-link"><span>01</span>HOME</a></li>
+                        <li>
+                            <a href="./pages/about.html" class="nav-link"><span>02</span>ABOUT US</a></li>
+                        <li>
+                            <a href="./pages/gallery.html" class="nav-link"><span>03</span>GALLERY</a></li>
+                        <li>
+                            <a href="./pages/contact.html" class="nav-link"><span>04</span>CONTACT US</a></li>
+                        <!--<li>
+                            <a href="./pages/blog.html" class="nav-link"><span>05</span>OUR BLOG</a></li>-->     
+                    </ul>
+                </div>
+            </nav>
         </div>
-        <nav role="navigation">
-            <button class="menu" id="hamburger" 
-                aria-label="Toggle Menu" 
-                aria-expanded="false" 
-                aria-controls="mainNavLinks">
-                <img src="./assets/icons/menu.svg"  
-                    alt="" width="50" 
-                    role="presentation" />
-            </button>
-            <div id="mainNavLinks" class="links" 
-                aria-labelledby="mainNavHeading"  aria-live="polite">
-                <button id="close-icon">Close</button>
-                <h2 id="mainNavHeading" hidden>Main menu</h2>
-                <ul>
-                    <li>
-                        <a href="#" class="nav-link"><span>01</span>HOME</a></li>
-                    <li>
-                        <a href="./pages/about.html" class="nav-link"><span>02</span>ABOUT US</a></li>
-                    <li>
-                        <a href="./pages/gallery.html" class="nav-link"><span>03</span>GALLERY</a></li>
-                    <li>
-                        <a href="./pages/contact.html" class="nav-link"><span>04</span>CONTACT US</a></li>
-                    <!--<li>
-                        <a href="./pages/blog.html" class="nav-link"><span>05</span>OUR BLOG</a></li>-->     
-                </ul>
-            </div>
-        </nav>
         <header role="banner">
             <div class="content">
                 <div>
@@ -187,7 +187,7 @@
             </div>
         </section>-->
     </main>
-    <footer>
+    <footer role="contentinfo">
         <p>Grandeur Tailors &copy;<span id="date">2021</span> All Rights Reserved</p>
     </footer>
     <script src="./js/index.js"></script>    

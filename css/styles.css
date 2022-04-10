@@ -25,12 +25,35 @@ button, a {
     cursor: pointer;
 }
 
+button {
+    outline: 0;
+    border: 0;
+    background-color: transparent;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-  
+
+ul {
+    list-style-type: none;
+} 
+
+/*********STYLES FOR MENU BAR************/
+.nav-top {
+    justify-content: space-between;
+    padding: 1rem 1.5rem;
+}
+
+.nav-top p {
+    font-family: 'Lato', sans-serif;
+    color: var(--brownFont);
+    font-size: 21px;
+    margin-bottom: initial;
+}
+
 .links {
     overflow: hidden;
     height: 100vh;
@@ -51,14 +74,13 @@ button, a {
     transform: translateX(0);
 }
   
-  nav {
+  /*nav {
     overflow: hidden;
     position: relative;
     height: 0;
-  }
+  }*/
   
-  li {
-    list-style-type: none;
+li {
     padding-bottom: 1rem;
   }
 
@@ -83,8 +105,9 @@ button, a {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
-  }
+}
 
+/*********STYLES FOR HEADER (HERO) STYLES************/
   .cta-links {
       font-size: 15px;
   }
@@ -96,26 +119,9 @@ header {
     padding: 1rem 1.5rem 3rem;
 }
 
-#hamburger {
-    height: 2.5rem;
-    width: 2.5rem;
-}
-
 .flex {
     display: flex;
     align-items: center;
-}
-
-.nav-top {
-    justify-content: space-between;
-    padding: 1rem 1.5rem;
-}
-
-.nav-top p {
-    font-family: 'Lato', sans-serif;
-    color: var(--brownFont);
-    font-size: 21px;
-    margin-bottom: initial;
 }
 
 .content-head {
@@ -131,14 +137,14 @@ header button {
     width: 9rem;
 }
 
-button {
+/*button {
     height: 2.6rem;
     width: 10rem;
     background-color: var(--brownFont);
     border: none;
     margin-bottom: 2rem;
     outline: none;
-}
+}*/
 
 button a {
     color: #fff;
