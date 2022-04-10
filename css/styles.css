@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+/**@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@800&family=Lato:wght@700&family=Poppins:ital,wght@0,400;0,500;0,600;1,500&display=swap');
+****/
 * {
     box-sizing: border-box;
     margin: 0;
@@ -9,7 +10,8 @@
 :root {
     --mainFont:  'Playfair Display', serif;
     --brownFont: /*#be9669;*/ #a17f5a; /*#be9669E*/
-    --paragraphFont:  'Rubik', sans-serif;
+    --paragraphFont:  'Poppins', sans-serif;
+    font-family: 'Playfair Display', serif;
     --paragraphColor: grey;
 }
 
@@ -114,54 +116,53 @@ header {
     padding: 1rem 1.5rem 3rem;
 }
 
-h1{
-    text-align: unset;
+.content {
+    margin-top: 2rem;
+}
+
+h1 {
+    font-size: 2.4rem;
+    line-height: 1.2;
 }
 
 .grandeur{
-    margin: 1rem 0;
+    margin: 1.5rem 0;
 }
 
-
-/*button {
-    height: 2.6rem;
-    width: 10rem;
-    background-color: var(--brownFont);
-    border: none;
-    margin-bottom: 2rem;
-    outline: none;
-}*/
-
-button a {
-    color: #fff;
-    font-family: var(--paragraphFont); 
-    font-size: 15px; 
+.explore,
+.contact {
+    width: 9rem;
+    height: 2.8rem;
+    font-family: var(--paragraphFont);
+    font-size: .9rem;
 }
 
 .explore {
+    background-color: var(--brownFont);
+    color: #fff;
     margin-right: 1rem;
+}
+
+.contact {
+    border: 1px solid var(--brownFont);
+    color: var(--brownFont);
 }
 
 .home-photo {
     border-radius: 300px;
     width: 85%;
     display: block;
-    margin: auto;
-}
-
-.content {
-    margin-top: 3rem;
+    margin: 2rem auto 0;
 }
 
 h2, h1 {
     font-family: var(--mainFont);
     font-weight: 400;
-    font-size: 2rem;
 }
 
 h2 {
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 2rem;
     margin-bottom: 2rem;
 }
 
