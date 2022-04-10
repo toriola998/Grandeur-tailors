@@ -30,19 +30,26 @@ button, a {
     justify-content: center;
     align-items: center;
 }
-
-.show-links {
-    position: fixed;
-    z-index: 9999;
+  
+.links {
+    overflow: hidden;
     height: 100vh;
     width: 70vw;
+    background-color: #fff;
+    position: fixed;
+    z-index: 10;
+    transition: 0.5s transform ease;
     top: 0;
     right: 0;
-    background-color: #fff;
+    transform: translateX(100vw);
     display: flex;
     justify-content: center;
     align-items: center;
-  }
+}
+  
+.show-links {
+    transform: translateX(0);
+}
   
   nav {
     overflow: hidden;

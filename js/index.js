@@ -1,25 +1,33 @@
-const menu = document.querySelector('#hamburger');
-const links = document.querySelector('nav');
+const menuBtn = document.querySelector('#hamburger');
+const links = document.querySelector('nav div');
 const closeIcon = document.querySelector('#close-icon');
 
-//Toggle to menu hamburger
-menu.addEventListener('click', function(){
-links.classList.toggle('show-links');
-});
+//TOGGLE HAMBURGER-MENU BTN
+menuBtn.addEventListener('click', () => {
+    if (links.classList.contains('show-links')) {
+        links.classList.remove('show-links');
+        menuBtn.setAttribute("aria-expanded", false)
+    } else {
+        links.classList.add('show-links');
+        menuBtn.setAttribute("aria-expanded", true)
+    }
+})
 
-//Close the side bar once the close icon gets clicked
-closeIcon.addEventListener('click', function(){
+//CLOSE NAV-BAR ONCE CLOSE BUTTON IS CLICKED
+closeIcon.addEventListener('click', () => {
     links.classList.remove('show-links');
+    menuBtn.setAttribute("aria-expanded", false)
 });
 
-let navLinks = document.querySelectorAll('.nav-link');
-//event listener for each links
-navLinks.forEach(link => {  
+let navLists = document.querySelectorAll('nav ul li');
+//CLOSE THE NAV-BAR WHENEVER EACH NAV-LINK IS CLICKED
+navLists.forEach(link => {  
   link.addEventListener('click', () => {
     links.classList.remove('show-links');
+    menuBtn.setAttribute("aria-expanded", false) 
   }); 
 });
 
-//Update the copyright year automatically
+//UPDATE COPYRIGHT YEAR AUTOMATICALLY
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
