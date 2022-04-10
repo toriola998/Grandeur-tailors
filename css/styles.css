@@ -31,6 +31,11 @@ button {
     background-color: transparent;
 }
 
+.flex {
+    display: flex;
+    align-items: center;
+}
+
 .flex-center {
     display: flex;
     justify-content: center;
@@ -74,44 +79,34 @@ ul {
     transform: translateX(0);
 }
   
-  /*nav {
-    overflow: hidden;
-    position: relative;
-    height: 0;
-  }*/
-  
 li {
     padding-bottom: 1rem;
-  }
+}
 
-  li > a {
+li > a {
     color: var(--brownFont);
    font-weight: 400;
     font-size: 14px;
     font-family: var(--paragraphFont);
-  }
+}
 
-  li > a > span {
+li > a > span {
     font-weight: 600;
     padding-right: 0.5rem;
-  }
+}
   
-  li > a:hover {
+li > a:hover {
     border-bottom: 3px solid var(--brownFont);
     text-decoration: none;
-  }
+}
 
-  #close-icon {
+#close-icon {
     position: absolute;
     top: 1.5rem;
     right: 1.5rem;
 }
 
 /*********STYLES FOR HEADER (HERO) STYLES************/
-  .cta-links {
-      font-size: 15px;
-  }
-
 header {
     background-color: #fff;
     height: 100%;
@@ -119,23 +114,14 @@ header {
     padding: 1rem 1.5rem 3rem;
 }
 
-.flex {
-    display: flex;
-    align-items: center;
-}
-
-.content-head {
-    font-weight: 400;
+h1{
     text-align: unset;
 }
 
-header p{
+.grandeur{
     margin: 1rem 0;
 }
 
-header button {
-    width: 9rem;
-}
 
 /*button {
     height: 2.6rem;
