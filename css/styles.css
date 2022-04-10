@@ -96,17 +96,19 @@ header {
 
 .flex {
     display: flex;
+    align-items: center;
 }
 
 .nav-top {
     justify-content: space-between;
-    align-items: center;
+    padding: 1rem 1.5rem;
 }
 
 .nav-top p {
     font-family: 'Lato', sans-serif;
     color: var(--brownFont);
     font-size: 21px;
+    margin-bottom: initial;
 }
 
 .content-head {
