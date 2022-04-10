@@ -162,7 +162,7 @@ h2, h1 {
 
 /*********STYLES FOR OUR BESTSELLING SECTION STARTS************/
 #bestselling-styles {
-    margin: 4rem auto 6rem;
+    margin: 4rem auto 3rem;
     position: relative;
 }
 
@@ -304,16 +304,14 @@ p {
     }
 }
 
-.contact-cta-btn button {
+.contact-cta-btn a {
     width: 5rem;
     height: 5rem;
     border-radius: 50px;
+    background-color: var(--brownFont);
 }
 
 footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     margin-top: 6rem;
     background-color: var(--brownFont);
     height: 3rem;

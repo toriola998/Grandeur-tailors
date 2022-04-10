@@ -92,10 +92,10 @@
             </button> 
         </section>
 
-        <section id="overview">
+        <section id="overview" aria-labelledby="an-overview-on-grandeur-tailors">
             <div class="overview-flex">
                 <div>
-                    <h2>An overview</h2>
+                    <h2 id="an-overview-on-grandeur-tailors">An overview</h2>
                     <p>Grandeur Tailors is a Nigeria-based custom tailor shop with a strong commitment to excellence.
                     We believe there is nothing better than a tailor-made outfit, and our mission is to give that to 
                     everyone who wants it.</p>
@@ -107,16 +107,17 @@
                     <p>With our custom-made clothing, our clients will be able to find their desired fabrics, colours,
                     and styles. We personally make every article of clothing and focus on providing a high 
                     level of customer service, which leads to customer satisfaction.</p>
-                    <button>
-                        <a href="./pages/about.html" class="cta-links">Learn About Us</a>
-                    </button>
+                    <a href="./pages/about.html" class="cta-links">Learn About Us</a>
                 </div>
-                <img loading="lazy" src="./assets/images/bg-photo3.jpg" alt="overview" class="overview-photo"/>
+                <img loading="lazy" 
+                     src="./assets/images/bg-photo3.jpg" 
+                     class="overview-photo"
+                     alt="An image showing grandeur tailors workshop"/>
             </div>
         </section>
 
-        <section id="why-choose-us">
-            <h2>Why Choose Us</h2>
+        <section id="why-choose-us" aria-labelledby="why-choose-us">
+            <h2 id="why-choose-us">Why Choose Us</h2>
             <div class="choose-inner">
                 <div>
                     <div class="underline"></div>
@@ -149,12 +150,11 @@
             </div> 
 
             <div class="contact-cta-btn">
-                <button>
-                    <a href="./pages/contact.html">
+                <a href="./pages/contact.html" class="flex-center">
                     <img src="./assets/icons/contact-cta.svg"
                         alt="contact-us"
-                        style="height: 3rem;"/></a>
-                </button>
+                        style="height: 3rem;"/>
+                </a>
             </div>
         </section> 
        
@@ -199,7 +199,7 @@
             </div>
         </section>-->
     </main>
-    <footer role="contentinfo">
+    <footer role="contentinfo" class="flex-center">
         <p>Grandeur Tailors &copy;<span id="date">2021</span> All Rights Reserved</p>
     </footer>
     <script src="./js/index.js"></script>    
