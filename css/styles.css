@@ -160,13 +160,19 @@ h2, h1 {
     font-weight: 400;
 }
 
+/*********STYLES FOR OUR BESTSELLING SECTION STARTS************/
+#bestselling-styles {
+    margin: 4rem auto 6rem;
+    position: relative;
+}
+
 h2 {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 2rem;
 }
 
-.styles {
+.image-wrap img {
     object-fit: cover;
     height: auto;
     display: block;
@@ -177,11 +183,6 @@ h2 {
 #overview,
 #why-choose-us {
     padding: 3.5rem 1.5rem 3rem;
-}
-
-#bestselling-styles {
-    margin: 4rem auto 6rem;
-    position: relative;
 }
 
 .bestselling-styles-cta {
