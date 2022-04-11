@@ -20,6 +20,8 @@ a {
 
 .logo {
     color: var(--brownFont);
+    font-size: 1.4rem;
+    font-family: var(--paragraphFont);
 }
 
 button, a {
@@ -372,6 +374,10 @@ footer p {
        display: none;
    }
 
+   .logo {
+    font-size: 30px;
+ }
+
    .nav-top {
        padding: 1rem 4rem;
        position: relative;
@@ -386,7 +392,7 @@ footer p {
         overflow: visible;
         transform: inherit;
         background-color: transparent;
-        height: 4rem;
+        height: 5rem;
         width: initial;
         position: absolute;
         left: initial;
@@ -471,15 +477,9 @@ footer p {
 }
 
 @media screen and (min-width: 1000px) {
-    .nav-items {
-        right: 0;
-        bottom: 2rem;
-    }
-
-    .nav-top p {
-       font-size: 30px;
-    }
-
+   .links {
+       height: 4rem;
+   }
     li {
         padding: 0 1rem 0 ;
     }
