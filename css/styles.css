@@ -53,13 +53,6 @@ ul {
     padding: 1rem 1.5rem;
 }
 
-.nav-top p {
-    font-family: 'Lato', sans-serif;
-    color: var(--brownFont);
-    font-size: 21px;
-    margin-bottom: initial;
-}
-
 .links {
     overflow: hidden;
     height: 100vh;
@@ -125,13 +118,19 @@ h1 {
     margin: 1.5rem 0;
 }
 
-.explore,
-.contact,
-.learn-more {
+.btn {
     width: 9rem;
     height: 2.8rem;
     font-family: var(--paragraphFont);
     font-size: .9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 1s;
+}
+
+.btn:hover {
+    transform: scale(0.9);
 }
 
 .explore,
