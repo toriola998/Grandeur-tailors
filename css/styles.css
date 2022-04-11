@@ -130,16 +130,21 @@ h1 {
 }
 
 .explore,
-.contact {
+.contact,
+.learn-more {
     width: 9rem;
     height: 2.8rem;
     font-family: var(--paragraphFont);
     font-size: .9rem;
 }
 
-.explore {
+.explore,
+.learn-more {
     background-color: var(--brownFont);
     color: #fff;
+}
+
+.explore {
     margin-right: 1rem;
 }
 
@@ -201,6 +206,7 @@ h2 {
     text-align: center;
 }
 
+/*********STYLES FOR OUR BESTSELLING SECTION ENDS************/
 p {
     font-family: var(--paragraphFont);
     font-weight: 400;
@@ -214,15 +220,18 @@ p {
     margin: 0 auto 4rem;
 }
 
+.learn-more {
+    margin-bottom: 3rem;
+}
+
 .overview-photo {
-    height: 400px;
-    width: auto;
+    width: 100%;
     display: block;
     margin: auto;
 }
 
  h3 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraphFont);
     font-weight: 500;
     font-size : 1.5rem;
     margin-bottom: 1rem;
@@ -242,6 +251,7 @@ p {
     margin: 2rem 0;
 }
 
+/********************STYLES FOR BLOG SECTION******************/
 .blog-photo {
     width: 180px;
     height: 180px;
@@ -285,6 +295,7 @@ p {
     position: relative;
 }
 
+/***********STYLES FOR 'WHY CHOOSE US' STARTS************/
 .contact-cta-btn {
     position: absolute;
     right: 2rem;
@@ -311,6 +322,7 @@ p {
     background-color: var(--brownFont);
 }
 
+/*************STYLES FOR FOOTER STARTS**********/
 footer {
     margin-top: 6rem;
     background-color: var(--brownFont);
@@ -506,7 +518,7 @@ footer p {
     }
 
     h2 {
-        font-size: 2rem;
+        font-size: 2.2rem;
     }
 
     .overview-flex>div {
