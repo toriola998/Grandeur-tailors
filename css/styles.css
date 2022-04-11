@@ -11,7 +11,6 @@
     --mainFont:  'Playfair Display', serif;
     --brownFont: /*#be9669;*/ #a17f5a; /*#be9669E*/
     --paragraphFont:  'Poppins', sans-serif;
-    font-family: 'Playfair Display', serif;
     --paragraphColor: grey;
 }
 
@@ -89,12 +88,7 @@ li > a {
     color: var(--brownFont);
    font-weight: 400;
     font-size: 14px;
-    font-family: var(--paragraphFont);
-}
-
-li > a > span {
-    font-weight: 600;
-    padding-right: 0.5rem;
+    font-family: var(--mainFont);
 }
   
 li > a:hover {
@@ -173,7 +167,7 @@ h2, h1 {
 
 h2 {
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin-bottom: 2rem;
 }
 
@@ -276,7 +270,7 @@ p {
 }
 
 .box h5 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--paragraphFont);
     font-size: 1.1rem;
     margin-bottom: 1rem; 
 }
@@ -336,11 +330,7 @@ footer p {
     font-size: 14px;
 }
 
-@media screen and (min-width: 550px) {
-    li > a {
-        font-size: 15px;
-      }
-    
+@media screen and (min-width: 550px) { 
     header {
         padding: 1rem 4rem 3rem;
     }
@@ -376,29 +366,47 @@ footer p {
 }
 
 @media screen and (min-width: 760px) {
-
-   #hamburger, 
-   #close-icon {
+    #hamburger, 
+    #close-icon {
        display: none;
    }
-   
-   nav {
-        overflow: visible;
+
+   .nav-top {
+       padding: 1rem 4rem;
+       position: relative;
    }
 
-   .nav-items {
-       display: flex;
-       position: absolute;
-       bottom: 1.4rem;
-       right: -2rem;
-   }
+   li > a {
+    font-size: 1.1rem;
+    font-family: var(--paragraphFont);
+  }
+   
+   .links {
+        overflow: visible;
+        transform: inherit;
+        background-color: transparent;
+        height: 4rem;
+        width: initial;
+        position: absolute;
+        left: initial;
+        right: 2rem;    
+    }
+
+    .links > div,
+    nav ul {
+    display: flex;
+    }
 
    li {
        padding: 0 1rem 0 0;
    }
 
-   li > a >span {
-       display: none;
+   h1 {
+       font-size: 3.1rem;
+   }
+
+   h2 {
+       font-size: 2.7rem;
    }
 
     body {
@@ -421,10 +429,12 @@ footer p {
         grid-template-columns: auto auto;
     }
 
-    .styles {
-        width: 330px;
-        margin: unset;
-        height: 430px;
+    .image-wrap {
+        padding: 0 4rem;
+    }
+
+    .image-wrap img {
+        width: 100%;
     }
 
     #overview {
@@ -436,7 +446,7 @@ footer p {
         width: 50%;
     }
 
-      .box {
+    .box {
         margin: 0 3rem 3rem;
     }
 
@@ -485,10 +495,6 @@ footer p {
         align-items: center;
     }
 
-    .styles {
-        width: 300px;
-    }
-
     .content {
         margin-top: 3rem;
    }
@@ -509,26 +515,19 @@ footer p {
     }
 
     .content>div {
-        width: 45%;
+        width: 50%;
         margin-right: 4rem ;
     }
 
-    .home-photo{
-        width: 340px;
-    }
-
-    h2 {
-        font-size: 2.2rem;
-    }
-
-    .overview-flex>div {
-        width: 40%;
+    .home-photo,
+    .overview-flex > div {
+        width: 45%;
     }
 
     .overview-photo {
         margin: 0 4rem 0 0;
         height: auto;
-        width: 360px;
+        width: 40%;
     }
 
     .box {
@@ -554,16 +553,23 @@ footer p {
 }
 
 @media screen and (min-width: 1250px) {
+    .nav-top {
+        padding: 1rem 7rem 0;
+    }
+
+    header {
+        padding: 0rem 6rem 3rem;
+    }
+
+    .links {
+        right: 6rem;
+    }
+
     .choose-inner {
         grid-template-columns: auto auto auto;
     }
 
-    .styles {
-        width: 360px;
-    }
-
     h2 {
-        font-size: 2.2rem;
         margin-bottom: 4rem;
     }
 
@@ -575,8 +581,8 @@ footer p {
         font-size: 2.8rem; 
    
     }
-    .content>div {
-        width: 40%;
+    .content > div {
+        width: 45%;
         margin-right: 8rem ;
     }
 
@@ -585,8 +591,7 @@ footer p {
     }
 
     .home-photo{
-        margin: unset;
-        width: 420px;
+        width: 40%;
     }
 
     .overview-flex>div {
@@ -613,6 +618,7 @@ footer p {
 }
 
 @media screen and (min-width: 1400px) {
+    .nav-top,
     section,
     header {
         max-width: 1320px;
