@@ -3,8 +3,12 @@
     margin: auto;
 }
 
+header{
+    padding: 3rem 0 0 0;
+}
+
 main {
-    margin: 2rem 0 10rem;
+    margin-bottom: 10rem;
  }
 
 .article-content {
@@ -30,7 +34,7 @@ main {
     }
 
     main {
-        margin: 4rem auto 12rem auto;
+        margin: auto auto 12rem auto;
     }
 
     #about-photo {
