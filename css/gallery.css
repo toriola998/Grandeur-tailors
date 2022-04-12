@@ -14,7 +14,7 @@ main {
     border: 1px solid var(--brownFont);
     border-radius: 8px;
     color: var(--brownFont);
-    font-weight: 500;
+    font-weight: 600;
     font-size: 15px;
     padding: 0 1rem;
     height: 2.5rem;
