@@ -4,7 +4,7 @@
 }
 
 main {
-    margin-bottom: 10rem;
+    margin: 2rem 0 10rem;
  }
 
 .article-content {
@@ -16,9 +16,12 @@ main {
     margin-bottom: 2rem;
 }
 
-button {
+.booking {
     position: absolute;
     right: 0;
+    background-color: var(--brownFont);
+    color: #fff;
+    width: 13rem;
 }
 
 @media screen and (min-width: 1000px) {
@@ -27,19 +30,15 @@ button {
     }
 
     main {
-        margin: auto auto 12rem auto;
+        margin: 4rem auto 12rem auto;
     }
 
     #about-photo {
-        width: -webkit-fill-available;
+        width: 100%;
     }
 
     p {
         font-size: 18px;
-    }
-
-    button {
-        width: 12rem;
     }
 }
 
@@ -48,12 +47,6 @@ button {
     main {
         max-width: 1320px;
         margin: auto;
-    }
-
-    footer {
-        position: absolute;
-        bottom: 0;
-        width: 100%;
     }
 }
 
