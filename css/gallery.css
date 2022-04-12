@@ -20,7 +20,7 @@ main {
     height: 2.5rem;
 }
 
-.active {
+.gallery-btn:hover {
     background-color: var(--brownFont);
     border: 1px solid var(--brownFont);
     color: #fff;
