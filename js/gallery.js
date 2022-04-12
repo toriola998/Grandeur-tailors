@@ -1,5 +1,5 @@
-const allButtons = [...document.querySelectorAll('.btn')];
-const imageItems = [...document.querySelectorAll('.cloth-style')];
+const allButtons = [...document.querySelectorAll('.gallery-btn')];
+const imageItems = [...document.querySelectorAll('.grid-container img')];
 
 allButtons.forEach( (btn) => {
     btn.addEventListener('click', (e) =>{

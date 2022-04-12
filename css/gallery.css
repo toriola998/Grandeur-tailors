@@ -1,5 +1,5 @@
 main {
-    margin-bottom: 6rem;
+    margin: 3rem 0 6rem;
 }
 
 .btn-wrapper {
@@ -8,26 +8,25 @@ main {
     flex-wrap: wrap;
 }
 
-button {
+.gallery-btn {
     margin: 0 1rem 1rem;
     background-color: inherit;
     border: 1px solid var(--brownFont);
-    border-radius: 10px;
+    border-radius: 8px;
     color: var(--brownFont);
-    font-weight: 600;
+    font-weight: 500;
     font-size: 15px;
-    outline: none;
-    width: auto;
     padding: 0 1rem;
+    height: 2.5rem;
 }
 
-button:hover {
+.gallery-btn:hover {
     background-color: var(--brownFont);
     border: 1px solid var(--brownFont);
     color: #fff;
 }
 
-.cloth-style {
+.grid-container img {
     object-fit: cover;
     height: auto;
     width: 80%;
@@ -39,7 +38,7 @@ button:hover {
 }
 
 @media screen and (min-width: 560px) {
-    .cloth-style {
+    .grid-container img {
         width: 55%;
         margin: 0 auto 2rem;
     }   
@@ -47,14 +46,14 @@ button:hover {
 
 @media screen and (min-width: 760px) {
     main {
-        margin-bottom: 10rem;
+        margin: 5rem 0 10rem;
     }
 
     .grid-container{
         gap: 30px
     }
 
-    .cloth-style {
+    .grid-container img {
         width: 300px;
         margin: unset;
         height: 400px;
@@ -62,7 +61,7 @@ button:hover {
 }
 
 @media screen and (min-width: 1200px) {
-    .cloth-style {
+    .grid-container img {
         width: 360px;
         height: 500px;
     } 
