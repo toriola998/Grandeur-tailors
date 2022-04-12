@@ -43,11 +43,15 @@
                 </div>
             </nav>
         </div>
-        <main>
+        <header role="banner">
+            <h2>About Us</h2>
+        </header>
+        <main role="main">
             <article>
                 <div class="about">
-                    <h2>About Us</h2>
-                    <img src="./../assets/images/about-photo.jpg" id="about-photo" alt="grandeurs"/>    
+                    <img src="./../assets/images/about-photo.jpg" 
+                         id="about-photo" 
+                        alt="grandeurs"/>    
                     <div class="article-content">
                         <p>Founded in 2017 and based in Abeokuta, Nigeria, Grandeur Tailors is a custom tailor shop 
                             with a strong commitment to excellence. We believe there is nothing better than a 
@@ -65,13 +69,13 @@
                             to working with you to provide high quality men's clothing that will deliver self-confidence and 
                             help you look your very best.</p>
                         
-                       <a href="./contact.html" class="btn booking">Book An Appointment</a>
+                       <a href="./contact.html" class="btn booking" role="button">Book An Appointment</a>
                     </div>
                 </div>  
             </article> 
         </main>
 
-        <footer>
+        <footer role="content-info" class="flex-center">
             <p>Grandeur Tailors &copy;<span id="date">2021</span> All Rights Reserved</p>
         </footer>
     <script src="./../js/index.js"></script>
