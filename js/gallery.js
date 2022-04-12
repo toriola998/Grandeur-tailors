@@ -3,10 +3,10 @@ const imageItems = [...document.querySelectorAll('.grid-container img')];
 
 allButtons.forEach( (btn) => {
     btn.addEventListener('click', (e) =>{
-        if (e.target.id === 'native'){
+        if (e.target.id === 'native'){ 
             imageItems.forEach ( (image) => {
                 if(image.classList.contains('native')){
-                    image.style.display = 'block';
+                    image.style.display = 'block';  
                 }else {
                     image.style.display = 'none'; 
                 }
@@ -19,6 +19,6 @@ allButtons.forEach( (btn) => {
                     image.style.display = 'none'; 
                 }
             })
-        }
+        } 
     } )
 })
