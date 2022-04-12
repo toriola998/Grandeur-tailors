@@ -1,15 +1,12 @@
-h2 {
-    margin-top: 3rem;
+header{
+    padding: 3rem 0 0 0;
 }
 
-#office-photo {
-    display: none;
-}
-
-#mobile-office-photo {
+.office-photo {
     height: auto;
     width: 100%;
     object-fit: cover;
+    margin: 0 0 2rem 0;
 }
 
 .contact-icon {
@@ -52,7 +49,6 @@ h6 {
     font-family: var(--paragraphFont);
     margin-left: 1rem;
     color: #000;
-    /*font-family: 'Montserrat', sans-serif;*/
 }
 
 .hr-underline {
@@ -82,20 +78,11 @@ h6 {
         margin-bottom: 4rem;
     }
 
-    h2 {
-        margin-bottom: 2rem;
-    }
-
-    #office-photo{
+    .office-photo{
         height: 550px;
         width: 500px;
-        margin-right: 4rem;
+        margin: 0 4rem 0 0;
         display: block;
-        object-fit: cover;
-    }
-
-    #mobile-office-photo {
-        display: none;
     }
 
     main>div {

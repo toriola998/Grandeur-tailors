@@ -18,97 +18,103 @@
     </head>
     <body>
         <div class="flex nav-top">
-            <a href="#" class="logo">GRANDEUR Tailors</a>
+            <a href="./../index.html" class="logo">GRANDEUR Tailors</a>
             <nav role="navigation">
                 <button id="hamburger" aria-label="Toggle Menu" 
                     aria-expanded="false" aria-controls="mainNavLinks">
-                    <img src="./assets/icons/menu.svg"  
+                    <img src="./../assets/icons/menu.svg"  
                         alt="" width="50" 
                         role="presentation" />
                 </button>
                 <div id="mainNavLinks" class="links" 
                     aria-labelledby="mainNavHeading"  aria-live="polite">
                     <button id="close-icon">
-                        <img src="./assets/icons/close-icon.svg" alt=""
+                        <img src="./../assets/icons/close-icon.svg" alt=""
                             width="25" role="presentation"/>
                     </button>
                     <h2 id="mainNavHeading" hidden>Main menu</h2>
                     <ul>
                         <li>
-                            <a href="./">Home</a></li>
+                            <a href="./../index.html">Home</a></li>
                         <li>
-                            <a href="./pages/about.html">About</a></li>
+                            <a href="./about.html">About</a></li>
                         <li>
-                            <a href="./pages/gallery.html">Gallery</a></li>
+                            <a href="./gallery.html">Gallery</a></li>
                         <li>
-                            <a href="./pages/contact.html">Contact</a></li>
+                            <a href="#">Contact</a></li>
                         <!--<li>
                             <a href="./pages/blog.html"><span>05</span>OUR BLOG</a></li>-->     
                     </ul>
                 </div>
             </nav>
         </div>
-        <main>
-            <img src="./../assets/images/showroom.jpg" id="office-photo" alt="office-photo"/>
-            <img src="./../assets/images/showroom-mobile.jpg" id="mobile-office-photo" alt="office-photo"/>
+        <header role="banner">
+            <h2>Contact Us</h2>
+        </header>
+        <main role="main">
+            <picture> 
+                <source media="(min-width: 1000px)" 
+                        srcset="./../assets/images/showroom.jpg">
+                <img src="./../assets/images/showroom-mobile.jpg"
+                    alt="Picture of Grandeur tailor's office"
+                    class="office-photo">
+            </picture>
             <div>
-                <h2>Contact Us</h2>
-            <div class="inner-main">
-                <p>Have a question? Our team is always ready to help. Feel free reach us anytime,
-                    we'll be glad to have you in our atelier.</p>
-                <div class="flex">
-                    <img src="./../assets/icons/contacts-icons/location.svg" class="contact-icon" alt="location"/>
-                    <p>19A, Alake Street, Opposite Abeokuta South Local Government Secretariat, Ake, Abeokuta, Ogun State</p>
-                </div>
-        
-                <div class="flex">
-                    <img src="./../assets/icons/contacts-icons/clock.svg" class="contact-icon" alt="office-time"/>
-                    <p>Monday - Saturday: 9am-7pm </p>
-                </div>
-                
-                <a href="tel:07060608035">
+                <div class="inner-main">
+                    <p>Have a question? Our team is always ready to help. Feel free reach us anytime,
+                        we'll be glad to have you in our atelier.</p>
                     <div class="flex">
-                        <img src="./../assets/icons/contacts-icons/phone.svg" class="contact-icon" alt="phone-number"/>
-                        <p>0706 060 8035</p>
+                        <img src="./../assets/icons/contacts-icons/location.svg" class="contact-icon" alt="location"/>
+                        <p>19A, Alake Street, Opposite Abeokuta South Local Government Secretariat, Ake, Abeokuta, Ogun State</p>
                     </div>
-                </a>
-
-                <a href="mailto:grandeurtailors@gmail.com">
-                    <div class="flex">
-                        <img src="./../assets/icons/contacts-icons/email.svg" class="contact-icon" alt="email"/>
-                        <p>grandeurtailors@gmail.com</p>
-                    </div>
-                </a>
-
-                <div class="container"> 
-                    <div class="hr-underline"></div>
-                    <div class="flex social-container">
-                        <div>
-                            <a href="https://web.facebook.com/grandeurtailors">
-                                <div class="flex social-wrap">
-                                    <div class="social-media-border">
-                                        <img src="./../assets/icons/contacts-icons/facebook.svg" alt="facebook" class="social-media"/>
-                                    </div>
-                                    <h6>Find Us on facebook</h6>
-                                </div>
-                            </a>
-                            <a href="https://www.instagram.com/grandeurtailors/">
-                                <div class="flex social-wrap">
-                                    <div class="social-media-border">
-                                        <img src="./../assets/icons/contacts-icons/instagram.svg" alt="instagram" class="social-media"/>   
-                                    </div>
-                                    <h6>Follow Us on instagram</h6>
-                                </div>
-                            </a>   
-                        </div>
-                    </div>  
-                    <div class="hr-underline"></div>   
-                </div>
-            </div>  
-            </div>
             
+                    <div class="flex">
+                        <img src="./../assets/icons/contacts-icons/clock.svg" class="contact-icon" alt="office-time"/>
+                        <p>Monday - Saturday: 9am-7pm </p>
+                    </div>
+                    
+                    <a href="tel:07060608035">
+                        <div class="flex">
+                            <img src="./../assets/icons/contacts-icons/phone.svg" class="contact-icon" alt="phone-number"/>
+                            <p>0706 060 8035</p>
+                        </div>
+                    </a>
+
+                    <a href="mailto:grandeurtailors@gmail.com">
+                        <div class="flex">
+                            <img src="./../assets/icons/contacts-icons/email.svg" class="contact-icon" alt="email"/>
+                            <p>grandeurtailors@gmail.com</p>
+                        </div>
+                    </a>
+
+                    <div class="container"> 
+                        <div class="hr-underline"></div>
+                        <div class="flex social-container">
+                            <div>
+                                <a href="https://web.facebook.com/grandeurtailors">
+                                    <div class="flex social-wrap">
+                                        <div class="social-media-border">
+                                            <img src="./../assets/icons/contacts-icons/facebook.svg" alt="facebook" class="social-media"/>
+                                        </div>
+                                        <h6>Find Us on facebook</h6>
+                                    </div>
+                                </a>
+                                <a href="https://www.instagram.com/grandeurtailors/">
+                                    <div class="flex social-wrap">
+                                        <div class="social-media-border">
+                                            <img src="./../assets/icons/contacts-icons/instagram.svg" alt="instagram" class="social-media"/>   
+                                        </div>
+                                        <h6>Follow Us on instagram</h6>
+                                    </div>
+                                </a>   
+                            </div>
+                        </div>  
+                        <div class="hr-underline"></div>   
+                    </div>
+                </div>  
+            </div>
          </main>
-        <footer>
+        <footer role="contentinfo" class="flex-center">
             <p>Grandeur Tailors &copy;<span id="date">2021</span> All Rights Reserved</p>
         </footer>
     <script src="./../js/index.js"></script>
