@@ -31,3 +31,11 @@ navLists.forEach(link => {
 //UPDATE COPYRIGHT YEAR AUTOMATICALLY
 const date = document.getElementById("date");
 date.innerHTML = new Date().getFullYear();
+
+var myAnimation = new hoverEffect({
+  parent: document.querySelector('.home-photo'),
+  intensity: 0.3,
+  image1: './assets/gallery-images/suits005.jpg',
+  image2: './assets/gallery-images/suits001.jpg',
+  displacementImage: './assets/gallery-images/suits004.jpg'
+});
