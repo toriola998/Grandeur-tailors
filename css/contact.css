@@ -2,11 +2,32 @@ header{
     padding: 3rem 0 0 0;
 }
 
+header h1 {
+    font-size: 2.2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
 .office-photo {
     height: auto;
     width: 100%;
     object-fit: cover;
     margin: 0 0 2rem 0;
+}
+
+address, 
+main a, 
+time {
+    font-family: var(--paragraphFont);
+    font-weight: 400;
+    color: var(--paragraphColor);
+    line-height: 1.7;
+    font-size: 14.6px;
+    margin-bottom: 1.3rem;
+}
+
+address {
+    font-style: normal;
 }
 
 .contact-icon {
@@ -19,9 +40,12 @@ header{
     padding: 0 1.5rem;
 }
 
+.flex-info {
+    display: flex;
+}
+
 .social-container {
     justify-content: center;
-   
 }
 
 .social-media-border {
@@ -44,11 +68,13 @@ header{
     margin: 1rem 0;
 }
 
-h6 {
+h2 {
     font-size: 0.9rem;
     font-family: var(--paragraphFont);
-    margin-left: 1rem;
+    margin: 0 0 0 1rem;
     color: #000;
+    font-weight: 600;
+    text-align: initial;
 }
 
 .hr-underline {
@@ -67,6 +93,11 @@ h6 {
     main>div {
         width: 65%;
         margin: auto;
+    }
+
+    header h1 {
+        font-size: 2.7rem;
+        margin-bottom: 4rem;
     }
 }
 
@@ -94,7 +125,7 @@ h6 {
         display: flex;
     }
 
-    .social-wrap {
+    .social-container > div > a:nth-child(1){
         margin-right: 2rem;
     }
 }
